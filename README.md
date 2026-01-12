@@ -5,14 +5,14 @@ This project implements a fully automated **statistical arbitrage (pairs trading
 
 ---
 
-## 📌 Strategy Overview
+##  Strategy Overview
 - Universe: NIFTY 50 stocks (Yahoo Finance)
 - Time Period: Apr 2015 – Mar 2024
 - Market Benchmark: NIFTY 50 Index (^NSEI)
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 1. **Data Cleaning**
    - Forward & backward filling
    - Assets with excessive missing data removed
@@ -34,7 +34,7 @@ This project implements a fully automated **statistical arbitrage (pairs trading
 
 ---
 
-## 📈 Results (Sample Profitable Pair)
+##  Results (Sample Profitable Pair)
 **HDFCBANK vs KOTAKBANK**
 - Annualized Return: **25.29%**
 - Annualized Volatility: **22.58%**
@@ -44,14 +44,14 @@ This project implements a fully automated **statistical arbitrage (pairs trading
 
 ---
 
-## 🧮 Risk Metrics
+##  Risk Metrics
 - Individual stock beta & alpha vs NIFTY 50
 - Portfolio-level alpha & beta
 - Volatility-adjusted performance (Sharpe)
 
 ---
 
-## 🛠 Tools & Libraries
+##  Tools & Libraries
 - Python
 - pandas, numpy
 - statsmodels
@@ -60,12 +60,14 @@ This project implements a fully automated **statistical arbitrage (pairs trading
 
 ---
 
-## ⚠️ Notes & Limitations
+##  Notes & Limitations
 - No transaction costs included
 - Assumes continuous rebalancing
 - Survivorship bias possible due to current NIFTY constituents
 
----
+---ERROR:
+Dropped 4 assets due to excessive missing data.
+
 
 ## ▶️ Run the Notebook
 You can run this project directly on Google Colab:  
@@ -73,6 +75,6 @@ You can run this project directly on Google Colab:
 
 ---
 
-## 📄 Author
+##  Author
 Abhimanyu Goel
 
