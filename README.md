@@ -69,6 +69,13 @@ This project implements a fully automated **statistical arbitrage (pairs trading
 Dropped 4 assets due to excessive missing data.
 
 
+## Results Summary
+- Identified 47 statistically cointegrated pairs
+- Strategy selected HDFCBANK–KOTAKBANK as a profitable pair
+- Achieved ~25% annualized returns with low market beta (~0.06)
+- Demonstrated strong alpha generation via market-neutral positioning
+
+
 ## ▶️ Run the Notebook
 You can run this project directly on Google Colab:  
 🔗 **[Colab Link](https://colab.research.google.com/drive/1R3JnG9FnAcu2bg-TRrt1H33BW80FEuKk?usp=sharing#scrollTo=LoHS4fIfYrBd)**
